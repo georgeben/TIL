@@ -30,3 +30,13 @@ module.exports = function({db}){
 The second approach makes life much easier. For example, when testing the user-service.js, we could simply invoke it with a fake db object instead of using modules like sinon to stub the db methods, rewire, proxyquire, etc. This makes testing a lot easier!
 
 **DI is about receiving things instead of taking them**
+
+Useful packages
+ - https://www.npmjs.com/package/awilix-express
+ - https://www.npmjs.com/package/awilix
+Related articles
+- https://medium.com/@Jeffijoe/dependency-injection-in-node-js-2016-edition-f2a88efdd427 (The 3 parts)
+- https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
+- https://medium.com/@magnusjt/dependency-injection-in-nodejs-9601a19c1f36
+- https://tsh.io/blog/dependency-injection-in-node-js/
+
